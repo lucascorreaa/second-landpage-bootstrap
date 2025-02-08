@@ -1,0 +1,12 @@
+/* set de variáveis */
+:root {
+    --variable-example: black;
+}
+
+/* reset do css */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
