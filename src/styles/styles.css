@@ -5,3 +5,22 @@ body {
     /* usando a variável global no bg */
     /* background-color: var(--variable-example); */
 }
+
+.hero {
+    margin-top: 56px;
+    background: url('../assets/images/pc-logo.png');
+    background-repeat: repeat-y;
+    background-position: right;
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 779px) {
+    .hero {
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+}
